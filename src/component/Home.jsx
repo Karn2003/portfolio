@@ -33,7 +33,7 @@ function Home() {
           <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 border-xl mt-20 ">
             <img
               className="rounded-[40%]  sm: h-[200px] mx-16 sm: w-[200px]"
-              src="../my.jpg"
+              src="../portfolio/my.jpg"
               alt=""
               height="300"
               width="300"
