@@ -12,7 +12,8 @@ function Footer() {
               <ul className="-m-5 flex flex-wrap items-center">
                 <li className="p-5">
                   <NavLink
-                    to="/"
+                    end
+                    to=""
                     className={({ isActive }) =>
                       `font-bold text-md block py-2 pr-4 pl-3 duration-200 border-b ${
                         isActive ? "text-blue-600" : "text-gray-700"
@@ -24,7 +25,7 @@ function Footer() {
                 </li>
                 <li className="p-5">
                   <NavLink
-                    to="/mywork"
+                    to="mywork"
                     className={({ isActive }) =>
                       `font-bold text-md block py-2 pr-4 pl-3 duration-200 border-b ${
                         isActive ? "text-blue-600" : "text-gray-700"
@@ -37,7 +38,7 @@ function Footer() {
 
                 <li className="p-5">
                   <NavLink
-                    to="/contact"
+                    to="contact"
                     className={({ isActive }) =>
                       `font-bold text-md block py-2 pr-4 pl-3 duration-200 border-b ${
                         isActive ? "text-blue-600" : "text-gray-700"

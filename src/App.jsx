@@ -14,10 +14,10 @@ import Contect from "./component/Contact.jsx";
 function App() {
   const router = createBrowserRouter(
     createRoutesFromElements(
-      <Route path="/" element={<Layout />}>
+      <Route path="/portfolio" element={<Layout />}>
         <Route path="" element={<Home />} />
-        <Route path="/mywork" element={<Mywork />} />
-        <Route path="/contact" element={<Contect />} />
+        <Route path="mywork" element={<Mywork />} />
+        <Route path="contact" element={<Contect />} />
       </Route>
     )
   );

@@ -22,7 +22,8 @@ function Header() {
                   <li>
                     <NavLink
                       onClick={() => setActive((prev) => !prev)}
-                      to="/"
+                      to=""
+                      end
                       className={({ isActive }) =>
                         ` font-bold text-md block ml-20 py-2 pr-4 pl-3 duration-200 border-b ${
                           isActive ? "text-blue-600" : "text-gray-600"
@@ -35,7 +36,7 @@ function Header() {
                   <li>
                     <NavLink
                       onClick={() => setActive((prev) => !prev)}
-                      to="/mywork"
+                      to="mywork"
                       className={({ isActive }) =>
                         `font-bold text-md block py-2 pr-4 pl-3 duration-200 border-b ${
                           isActive ? "text-blue-600" : "text-gray-700"
@@ -48,7 +49,7 @@ function Header() {
                   <li>
                     <NavLink
                       onClick={() => setActive((prev) => !prev)}
-                      to="/contact"
+                      to="contact"
                       className={({ isActive }) =>
                         `font-bold text-md block py-2 pr-4 pl-3 duration-200 border-b ${
                           isActive ? "text-blue-600" : "text-gray-700"
