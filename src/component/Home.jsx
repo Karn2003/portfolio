@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
+import {  NavLink } from "react-router-dom";
 function Home() {
   return (
     <>
@@ -19,11 +19,11 @@ function Home() {
                 className="inline-flex w-full items-center justify-center overflow-hidden rounded-lg bg-gray-900 px-4 py-2.5 text-sm text-white shadow transition-colors duration-300 hover:bg-gray-700 focus:ring focus:ring-gray-300 focus:ring-opacity-80 sm:mx-2 sm:w-auto"
               >
                 <span className="mx-2 ">
-                  <Link to="/contact">Contact Me</Link>
+                  <NavLink to="/portfolio/contact">Contact Me</NavLink>
                 </span>
               </a>
               <a
-                href="#"
+                href="../portfolio/RESUME.pdf"
                 className="mt-4 inline-flex w-full items-center justify-center overflow-hidden rounded-lg bg-blue-600 px-4 py-2.5 text-sm text-white shadow transition-colors duration-300 hover:bg-blue-500 focus:ring focus:ring-blue-300 focus:ring-opacity-80 sm:mx-2 sm:mt-0 sm:w-auto"
               >
                 <span className="mx-2">Resume</span>
@@ -33,8 +33,8 @@ function Home() {
           <div className="relative lg:col-span-5 lg:-mr-8 xl:col-span-6 border-xl mt-20 ">
             <img
               className="rounded-[40%]  sm: h-[200px] mx-16 sm: w-[200px]"
-              src="../portfolio/my.jpg"
-              alt=""
+              src="./img/my.jpg"
+              alt="profile img"
               height="300"
               width="300"
             />
