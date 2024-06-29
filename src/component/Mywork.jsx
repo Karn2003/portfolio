@@ -27,19 +27,19 @@ function Mywork() {
         animatedImage={project1}
         type1=""
         type2="hidden"
-        projectLink1="https://github.com/Karn2003/amazon_clone"
-        projectLink2="https://github.com/Karn2003/Netflixclone.website"
+        projectLink1="https://github.com/Karn2003/Netflixclone.website"
+        projectLink2="https://github.com/Karn2003/amazon_clone"
       />
       <ProjectSection
         title="JAVASCRIPT"
         image1={numberGuessImage}
         image2={bgChangerImage}
-        cardTitle1="Guess Number Game"
+        cardTitle1="Mini projects of JS"
         cardTitle2="BG changer"
         animatedImage={project2}
         type1="hidden"
         type2=""
-        projectLink1="https://github.com/Karn2003/Javascript_project/tree/main/01_bgchanger"
+        projectLink1="https://github.com/KarnKeraliya/Javascript_project"
         projectLink2="https://github.com/Karn2003/Javascript_project/tree/main/02GuessNumber"
       />
 
@@ -52,8 +52,8 @@ function Mywork() {
         animatedImage={project3}
         type1=""
         type2="hidden"
-        projectLink1="https://Karn2003.github.io/currency_convertor"
-        projectLink2="https://Karn2003.github.io/ToDo_App"
+        projectLink1="https://karnkeraliya.github.io/currency_convertor"
+        projectLink2="https://karnkeraliya.github.io/ToDo_App"
       />
 
       <ProjectSection
@@ -65,6 +65,8 @@ function Mywork() {
         animatedImage={project4}
         type1="hidden"
         type2=""
+        projectLink1="https://github.com/KarnKeraliya/MegaBlog"
+        projectLink2="https://github.com/KarnKeraliya/portfolio"
         
       />
     </>

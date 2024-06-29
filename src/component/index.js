@@ -7,7 +7,7 @@ const amazonImage =
 const bgChangerImage =
   "https://media.geeksforgeeks.org/wp-content/uploads/20230602152332/Screenshot-2023-06-02-152318-300.png";
 const numberGuessImage =
-  "https://codingartistweb.com/wp-content/uploads/2023/05/Number-Guessing-Game-01.png";
+  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSAk9mCPeQIHlrBUug0VUVP4bmq3yMNnk9lTg&s";
 const todoImage =
   "https://img.freepik.com/free-vector/businessman-holding-pencil-big-complete-checklist-with-tick-marks_1150-35019.jpg?size=626&ext=jpg&ga=GA1.1.735520172.1711411200&semt=ais";
 const currencyConverterImage =
